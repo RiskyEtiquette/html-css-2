@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Light grey background for the entire page */
+}
+
+.top-bar {
+    background-color: #434343; /* Charcoal grey color */
+    color: #fff; /* Text color */
+    padding: 70px; /* Add some spacing */
+}
+
+.left-bar,
+.right-bar {
+    background-color: #ddd; /* Light grey color for the side bars */
+    position: fixed;
+    top: 0;
+    bottom: 0px; /* Adjust to leave space for the bottom border */
+    width: 130px; /* Adjust the width as needed */
+}
+
+.left-bar {
+    left: 0;
+    z-index: -1; /* Move the left bar behind the content */
+}
+
+.right-bar {
+    right: 0;
+    z-index: -1; /* Move the right bar behind the content */
+}
+
+.bottom-border {
+    position: fixed;
+    bottom: 0;
+    left: 130px; /* Align with the left bar */
+    right: 130px; /* Align with the right bar */
+    height: 65px; /* Adjust the height as needed */
+    background-color: #201f1f; /* Charcoal grey color for the bottom border */
+}
